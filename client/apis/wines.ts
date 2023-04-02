@@ -1,5 +1,5 @@
 import request from 'superagent'
-import { Welcome9, WineSearcher, WineDetails, Wine } from '../../models/wine'
+import { Welcome9, WineSearcher, WineDetails, Wine } from '../../models/wineApi'
 
 
 export async function getWineByName(wineName: string): Promise<Wine> {
