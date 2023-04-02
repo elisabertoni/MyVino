@@ -1,4 +1,4 @@
-export interface Wine {
+export interface Bottle {
   id: number
   label: string
   varietal: string
